@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const containerStyle = {
   display: "flex",
-  alignItems: "center",
+  alignItems: "center ",
   gap: "16px",
 };
 const starContainerStyle = {
@@ -17,7 +17,7 @@ export default function StarRating({
   onSetRating,
 }) {
   const textStyle = {
-    lineHeight: "1",
+    lineHeight: "1.2",
     margin: "0",
     fontSize: `${size / 1.5}px`,
     color,
